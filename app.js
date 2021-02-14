@@ -35,6 +35,9 @@ const showImages = (images) => {
     document.getElementById("sorry").classList.remove("d-none");
     loadSpinner(false);
   }
+  else{
+    document.getElementById("sorry").classList.add("d-none");
+  }
 };
 
 const getImages = (query) => {
